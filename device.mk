@@ -201,7 +201,6 @@ PRODUCT_PACKAGES += \
     XiaomiDolby \
     libstagefright_softomx_plugin.vendor
 
->>>>>>> 56f9d847 (violet: Use common Dolby Atmos from hw_xiaomi)
 TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_COPY_FILES += \
