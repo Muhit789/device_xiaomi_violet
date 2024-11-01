@@ -35,7 +35,8 @@ endif
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := violet
-
+#ZRAM size
+BOARD_ZRAM_SIZE := 3145728  # 3GB in KB (3 * 1024 * 1024)
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
